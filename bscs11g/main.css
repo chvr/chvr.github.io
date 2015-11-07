@@ -1,0 +1,71 @@
+body {
+    align-content: absolute;
+    font-family: helvetica, sans-serif;
+    background-color:#AAFFAA;
+}
+a {
+    text-decoration:none;
+}
+
+#header {
+    animation-duration: 1s;
+    animation-name: slideinH;
+    font-family: consolas;
+    font-weight:600;
+	font-size: x-large;	/* should be same as an h1 header */
+	margin:20px 0 10px 0;
+	border-style:solid;
+	border-color:black;
+	border-width:1px 0;
+	background-color:#AAF;
+
+}
+
+#subheader {
+    animation-duration: 3s;
+    animation-name: slideinH;
+    font-family: consolas;
+    color:white;
+    margin:20px 0 10px 0;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	background-color:#FFAAAA;
+
+}
+
+#description {
+    animation-duration: 2s;
+    animation-name: slideinV;
+    font-family; sans-serif;
+    border-width: 5px;
+    margin-left: 25%;
+    margin-right:25%;
+}
+    
+@keyframes slideinH {
+  from {
+    overflow:hidden;
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    overflow:hidden;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slideinV {
+  from {
+    overflow:hidden;
+    margin-top: 100%;
+    width: 300%; 
+  }
+
+  to {
+    overflow:hidden;
+    margin-top: 0%;
+    width: 100%;
+  }
+}
