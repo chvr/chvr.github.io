@@ -1,3 +1,7 @@
 07/11/2015
 
     Website is created. The basic design of the website is developed. No supplemental resources are inputted yet.
+
+07/12/2015
+
+    A How-To guide on downloading everything needed for DCIT 22 is created.
